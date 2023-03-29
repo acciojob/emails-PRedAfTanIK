@@ -8,6 +8,8 @@ public class Mail {
     private String senderId;
     private String message;
 
+    public Mail() {}
+
     public Mail(int uniqueId, Date date, String senderId, String message) {
         this.uniqueId = uniqueId;
         this.date = date;
